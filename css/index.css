@@ -305,7 +305,7 @@ blockquote {
   border: none;
 }
 .article-container .highlight .line::selection {
-  background: rgba(128,203,196,0.125);
+  background: #80cbc4 20;
   color: #eff;
 }
 .article-container .highlight table {
@@ -376,13 +376,13 @@ blockquote {
 .article-container .highlight figcaption a:hover {
   border-bottom-color: #eff;
 }
-.article-container .highlight figcaption+table {
+.article-container .highlight figcaption + table {
   margin-top: 1em;
 }
-.article-container .highlight figcaption+table:before {
+.article-container .highlight figcaption + table:before {
   margin-top: -2.1rem;
 }
-.article-container .highlight figcaption+table:after {
+.article-container .highlight figcaption + table:after {
   top: -2.1rem;
 }
 .article-container .highlight .gutter pre {
@@ -429,7 +429,7 @@ blockquote {
   color: #546e7a;
 }
 .article-container pre .comment::selection {
-  background: rgba(128,203,196,0.125);
+  background: #80cbc4 20;
   color: #eff;
 }
 .article-container pre .variable,
@@ -458,14 +458,14 @@ blockquote {
 .article-container pre .tag .name::selection,
 .article-container pre .css .class::selection,
 .article-container pre .css .pseudo::selection {
-  background: rgba(128,203,196,0.125);
+  background: #80cbc4 20;
   color: #eff;
 }
 .article-container pre .tag {
   color: #89ddff;
 }
 .article-container pre .tag::selection {
-  background: rgba(128,203,196,0.125);
+  background: #80cbc4 20;
   color: #eff;
 }
 .article-container pre .number,
@@ -482,14 +482,14 @@ blockquote {
 .article-container pre .params::selection,
 .article-container pre .constant::selection,
 .article-container pre .command::selection {
-  background: rgba(128,203,196,0.125);
+  background: #80cbc4 20;
   color: #eff;
 }
 .article-container pre .built_in {
   color: #ffcb6b;
 }
 .article-container pre .built_in::selection {
-  background: rgba(128,203,196,0.125);
+  background: #80cbc4 20;
   color: #eff;
 }
 .article-container pre .ruby .class .title,
@@ -516,7 +516,7 @@ blockquote {
 .article-container pre .special::selection,
 .article-container pre .number::selection,
 .article-container pre .formula::selection {
-  background: rgba(128,203,196,0.125);
+  background: #80cbc4 20;
   color: #eff;
 }
 .article-container pre .keyword,
@@ -527,7 +527,7 @@ blockquote {
 .article-container pre .keyword::selection,
 .article-container pre .title::selection,
 .article-container pre .css .hexcolor::selection {
-  background: rgba(128,203,196,0.125);
+  background: #80cbc4 20;
   color: #eff;
 }
 .article-container pre .function,
@@ -548,7 +548,7 @@ blockquote {
 .article-container pre .perl .sub::selection,
 .article-container pre .javascript .title::selection,
 .article-container pre .coffeescript .title::selection {
-  background: rgba(128,203,196,0.125);
+  background: #80cbc4 20;
   color: #eff;
 }
 .article-container pre .tag .attr,
@@ -557,7 +557,7 @@ blockquote {
 }
 .article-container pre .tag .attr::selection,
 .article-container pre .javascript .function::selection {
-  background: rgba(128,203,196,0.125);
+  background: #80cbc4 20;
   color: #eff;
 }
 #disqus_thread {
